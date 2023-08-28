@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #fff;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 0px;
+    min-height: calc(100vh -200px);
+    gap: 1rem;
+}
+.login img {
+width: 323px;
+height: 304px;
+gap: 1rem;
+}
+
+.login_container {
+    border: 2px solid rgb(8, 8, 8);
+    border-radius: 40px;
+    color: black;
+    padding: 0% 68px 40px;
+    min-height: 75vh;
+    text-align: center;
+    width: 300px;
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.login-container h2 {
+    font-size: 25px;
+    margin-top: 30px;
+  
+  }
+
+.login_container_from {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.button {
+    background: transparent;
+    background-color: #FFCE34;
+    border-radius: 20px;
+    height: 67px;
+    border: none;
+    font-size: 17px;
+
+}
+.button:hover{
+    background-color: #ffd03494;
+}
+.button2 {
+    background: transparent;
+    background-color: #407718;
+    color: #fff;
+    border-radius: 20px;
+    height: 67px;
+    border: none;
+    font-size: 17px;
+}
+.button2:hover{
+    background-color: #40771894;
+}
+
+.login-container-remember label {
+    font-size: 14px;
+    color: #000000;
+}
+
+.login-container-remember {
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2.5rem;
+}
+.login-container-remember img {
+    width: 16px;
+    height: 16px;
+}
+
+.input {
+    background-color: transparent;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid white;
+    font-size: 1rem;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    margin-bottom: 20px;
+    padding: 0px 20px;
+    height: 25px;
+    color: black;
+}
+.login-container-remember a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+
+.login-container-social{
+    margin-top: -20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-container-social a{
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 600;
+    display: flex;
+}
+
+.login-container-social h1{
+    display: flex;
+    align-items: center;
+}
+.img-a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    gap: 1rem;
+}
+.img-a img{
+    width: 4vh;
+    height: 4vh;
+}
+.login-container-social h1{
+    display: flex;
+    align-items: center;
+}
+.login-container-register{
+    margin-top: -40px;
+    font-size: 15px;
+}
+.login-container-register a{
+    text-decoration: none;
+    color: #ffce34;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.footer{
+    margin: 3.24vh;
+    margin-left: 9.72vh;
+}
+.footer a{
+    text-decoration: none;
+    color: #ffce34;
+    padding: 0px 10px;
+    font-weight: 700;
+}
+a {
+    text-decoration: none;
+    color: #ffce34;
+}
