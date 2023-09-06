@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: inter;
     background-color: #fff;
 }
 
@@ -14,11 +14,31 @@ body {
     gap: 1rem;
 }
 .login img {
-width: 323px;
-height: 304px;
+margin: 45px 0px 15px ;
+width: 250px;
+height: 200px;
 gap: 1rem;
+padding: 0px 10px 0px 10px;
 }
 
+.input-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .input-container img {
+    position: absolute;
+    left: 10px; /* Puedes ajustar la posición de la imagen según tus necesidades */
+    top: -25px;
+    transform: translateY(-50%);
+    width: 20px; /* Ajusta el ancho de la imagen */
+    height: auto; /* Ajusta la altura automáticamente */
+  }
+  
+  .input {
+    padding-left: 30px; /* Asegura que el texto no se superponga con la imagen */
+    width: 250px;
+}
 .login_container {
     border: 2px solid rgb(8, 8, 8);
     border-radius: 40px;
@@ -73,6 +93,7 @@ gap: 1rem;
 }
 
 .login-container-remember label {
+    margin: 0px 15px 15px 0px ;
     font-size: 14px;
     color: #000000;
 }
@@ -81,15 +102,22 @@ gap: 1rem;
     color: black;
     display: flex;
     justify-content: space-around;
-    margin-top: 2.5rem;
+    align-items: center;
+    justify-content: center;
 }
 .login-container-remember img {
+    margin: 15px 0px 15px 0px;
     width: 16px;
     height: 16px;
+    text-align: center;
 }
-
+.img2{
+    
+}
 .input {
-    background-color: transparent;
+
+    background-color: #ececeb;
+    border-radius: 50px;
     border-left: 0px;
     border-top: 0px;
     border-right: 0px;
@@ -98,8 +126,9 @@ gap: 1rem;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
       "Lucida Sans", Arial, sans-serif;
     margin-bottom: 20px;
-    padding: 0px 20px;
-    height: 25px;
+    padding: 0px 47px;
+    height: 40px;
+    width: px;
     color: black;
 }
 .login-container-remember a{
